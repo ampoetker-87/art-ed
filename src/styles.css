@@ -1,0 +1,186 @@
+/* MAIN */
+
+body {
+  margin-bottom: -16px;
+  font-family: 'Domine', serif;
+}
+
+.centered-wrapper {
+  position: relative;
+  text-align: center;
+}
+
+.centered-content {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 50px;
+}
+
+header {
+  background-color: #f51326;
+  margin-bottom: 50px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.navbar-h1 {
+  font-family: 'Domine', serif;
+  font-size: 36px;
+}
+
+/* NAVIGATION */
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  display: inline;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+/* FOOTER */
+
+footer {
+  margin-top: 50px;
+}
+
+footer p {
+  color: #ccc;
+}
+
+/* IMAGE CARDS */
+
+.card-container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  position: relative;
+  text-align: center;
+}
+
+.card-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 20px;
+  object-fit: cover;
+}
+
+.card-p {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.img-btn {
+  width: 150px;
+  color: #000; /* Fallback for older browsers */
+    color: rgba(0, 0, 0, 0);
+  font-size: 18px;
+  text-align: center;
+  position: absolute;
+  border-radius: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0);
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  text-decoration: none;
+}
+
+.img-btn:hover {
+  width: 150px;
+  color: black;
+  font-size: 18px;
+  font-style: bold;
+  text-align: center;
+  position: absolute;
+  border-radius: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.5);
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  text-decoration: none;
+}
+
+*:focus {outline:none !important}
+
+/* MODAL */
+
+.details {
+  width: 100%;
+  height: auto;
+}
+
+/* SHUFFLE */
+
+/* Button 2g */
+.btn-2g {
+  font-family: 'Domine', serif;
+  width: 300px;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 10px;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  text-decoration: none;
+  background: #f51326;
+	color: #fff;
+	box-shadow: 0 6px #cc0011;
+	-webkit-transition: none;
+	-moz-transition: none;
+	transition: none;
+  position: absolute;
+}
+
+.btn-2g:hover {
+	box-shadow: 0 4px #cc0011;
+	top: 2px;
+}
+
+.btn-2g:active {
+	box-shadow: 0 0 #cc0011;
+	top: 6px;
+}
+
+
